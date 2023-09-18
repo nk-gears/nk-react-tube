@@ -1,0 +1,235 @@
+.container-fluid {
+    color: #fff;
+    background-color: #21242b;
+    min-height: 100vh
+}
+
+.Main {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center
+}
+
+.App-logo {
+    height: 50px;
+    display: inline-block
+}
+
+.HeaderTopics {
+    padding-top: 70px;
+    position: fixed;
+    z-index: 90;
+    width: 100%;
+    text-align: center !important;
+    background-color: #282c34;
+    border-width: 1px;
+    border-bottom: 1px solid #444852;
+    padding-bottom: 10px;
+    opacity: .97
+}
+
+.HTbuttons {
+    margin: 0 6px 6px;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: #444852;
+    border-color: #53565f;
+    color: #fff;
+    font-size: 14px
+}
+
+.HTbuttons:active,
+.HTbuttons:focus {
+    outline: none !important;
+    color: #000;
+    background-color: #53565f
+}
+
+.HTbuttons:hover {
+    opacity: .8
+}
+
+.Error {
+    padding: 150px 27.5%
+}
+
+.SideNav {
+    z-index: 95;
+    width: 240px;
+    padding-top: 80px;
+    height: 100%;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #282c34
+}
+
+@media only screen and (max-width:1200px) {
+    .ReactTube,
+    .SideNav {
+        visibility: hidden
+    }
+}
+
+@media only screen and (max-width:750px) {
+    .Main {
+        padding-top: 180px
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .Main {
+        padding-left: 20%
+    }
+}
+
+@media (prefers-reduced-motion:no-preference) {
+    .App-logo {
+        -webkit-animation: App-logo-spin 20s linear infinite;
+        animation: App-logo-spin 20s linear infinite
+    }
+}
+
+@-webkit-keyframes App-logo-spin {
+    0% {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+@keyframes App-logo-spin {
+    0% {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.AppHeader {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: #282c34;
+    border-width: 1px;
+    border-bottom: 1px solid #444852;
+    padding-bottom: 5px;
+    opacity: .75
+}
+
+.ReactTube {
+    text-align: center;
+    color: #61dafb;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 700;
+    display: inline;
+    position: fixed;
+    padding-top: 14px
+}
+
+.col-8 {
+    text-align: center !important
+}
+
+.form-control {
+    margin: 10px 0;
+    width: 50%;
+    height: 35px;
+    display: inline-block;
+    background-color: #21242b !important;
+    border-color: #444852;
+    color: #fff
+}
+
+.header-text {
+    margin-top: 15px;
+    display: inline-block;
+    color: #61dafb;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 700;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #fff !important;
+    color: #fff !important;
+    background-color: #444852;
+    padding: 1px 20px
+}
+
+.video {
+    border: 2px solid #61dafb
+}
+
+.channelName {
+    font-size: 12px;
+    color: #61dafb;
+    display: inline-block
+}
+
+.channelName:hover {
+    text-decoration: none
+}
+
+.uploaded {
+    display: inline-block;
+    padding-left: 5px;
+    font-size: 10px;
+    text-align: left !important
+}
+
+.videoName {
+    font-size: 13px
+}
+
+.watchVideo,
+.watchVideo:hover {
+    text-decoration: none;
+    color: #fff
+}
+
+.playlistLink,
+.sideNavLink {
+    font-size: 14px;
+    color: #fff
+}
+
+.sideNavItem {
+    padding: 5px
+}
+
+.sideNavItem:hover {
+    background-color: #53565f
+}
+
+.sideNavLink:hover {
+    text-decoration: none
+}
+
+.sideNavHeader {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    color: #61dafb
+}
+
+.playlistChannel {
+    color: #61dafb;
+    padding-left: 1px;
+    font-size: 13px;
+    opacity: .75
+}
+
+.cursor {
+    cursor: pointer
+}
+
+.videoPlayer {
+    height: 80%;
+    width: 80%;
+    padding-left: 20%;
+    text-align: left !important
+}
+
+/*# sourceMappingURL=main.d4bed875.chunk.css.map */
